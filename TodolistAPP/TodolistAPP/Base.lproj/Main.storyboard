@@ -35,10 +35,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykb-3x-wmP">
-                                                    <rect key="frame" x="310" y="64.5" width="50" height="30"/>
+                                                    <rect key="frame" x="316" y="64.5" width="44" height="30"/>
                                                     <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="50" id="KDk-Cg-0cA"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="KDk-Cg-0cA"/>
                                                         <constraint firstAttribute="height" constant="30" id="oye-Yk-O95"/>
                                                     </constraints>
                                                     <state key="normal" title="Edit">
@@ -63,7 +63,8 @@
                                                 <constraint firstItem="2Uv-Cr-13T" firstAttribute="leading" secondItem="leb-WS-PMx" secondAttribute="trailing" constant="30" id="4F3-ow-Mkw"/>
                                                 <constraint firstAttribute="trailing" secondItem="2Uv-Cr-13T" secondAttribute="trailing" constant="18" id="9yw-eB-jht"/>
                                                 <constraint firstAttribute="bottom" secondItem="leb-WS-PMx" secondAttribute="bottom" constant="15" id="LJw-KP-CoP"/>
-                                                <constraint firstAttribute="trailing" secondItem="ykb-3x-wmP" secondAttribute="trailing" constant="15" id="QqV-vg-uqM"/>
+                                                <constraint firstItem="ykb-3x-wmP" firstAttribute="leading" secondItem="JTx-cE-iov" secondAttribute="leading" constant="316" id="QF0-1g-Bwh"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ykb-3x-wmP" secondAttribute="trailing" id="QqV-vg-uqM"/>
                                                 <constraint firstItem="leb-WS-PMx" firstAttribute="leading" secondItem="JTx-cE-iov" secondAttribute="leading" constant="5" id="ZXf-mY-mV0"/>
                                                 <constraint firstItem="leb-WS-PMx" firstAttribute="top" secondItem="JTx-cE-iov" secondAttribute="top" constant="15" id="m7Z-og-FpD"/>
                                                 <constraint firstItem="ykb-3x-wmP" firstAttribute="top" secondItem="2Uv-Cr-13T" secondAttribute="bottom" constant="14.5" id="pdR-Dr-Z0R"/>

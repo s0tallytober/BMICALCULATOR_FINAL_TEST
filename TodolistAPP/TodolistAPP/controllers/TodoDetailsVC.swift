@@ -75,8 +75,8 @@ class TodoDetailsVC: UIViewController, UITextFieldDelegate {
         do{
             let gettingObject = try context.fetch(fetchRequest) as! [NSManagedObject]
             let gettIngData = gettingObject[0]
-            do{
-                try context.delete(gettIngData)
+            
+                context.delete(gettIngData)
                 do{
                     try context.save()
                     self.navigationController?.popViewController(animated: true)
@@ -84,9 +84,7 @@ class TodoDetailsVC: UIViewController, UITextFieldDelegate {
                     
                 }
                 self.navigationController?.popViewController(animated: true)
-            }catch{
-                
-            }
+            
             
         }catch {
             
